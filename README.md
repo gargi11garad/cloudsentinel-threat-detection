@@ -35,7 +35,7 @@ The API returns account scores, alerts, and investigation reports. Input validat
 
 ```bash
 pip install -r requirements.txt pytest httpx
-pytest -q
+python -m pytest -q
 docker build -t cloudsentinel .
 docker run --rm -p 8501:8501 cloudsentinel
 ```
